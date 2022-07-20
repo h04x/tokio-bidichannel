@@ -1,4 +1,4 @@
-# win-screenshot
+# tokio-bidichannel
 Tiny wrapper around tokio mpsc that provides bidirectional channel
 
 ## Examples
