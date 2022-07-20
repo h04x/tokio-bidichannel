@@ -1,5 +1,5 @@
 # win-screenshot
-Tiny wrapper around tokio mpsc that provide bi-directional channel
+Tiny wrapper around tokio mpsc that provides bidirectional channel
 
 ## Examples
 ```rust
@@ -19,7 +19,7 @@ async fn main() {
     tokio::spawn(async move {
         loop {
             dbg!(right.recv().await);
-            right.send("time to drink cup of tea").unwrap();
+            right.send("time to drink a cup of tea").unwrap();
         }
     }).await;
 }
