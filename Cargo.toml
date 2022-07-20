@@ -13,5 +13,5 @@ keywords = ["channel", "queue", "bi-directional"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-tokio = { version="1.20.0", features=["macros", "sync", "rt-multi-thread"]}
+tokio = { version="1", features=["macros", "sync", "rt-multi-thread"]}
 
