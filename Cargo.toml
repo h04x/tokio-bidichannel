@@ -1,0 +1,17 @@
+[package]
+name = "tokio-bidichannel"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Tiny wrapper around tokio mpsc that provide bi-directional channel"
+readme = "README.md"
+repository = "https://github.com/h04x/tokio-bidichannel"
+homepage = "https://github.com/h04x/tokio-bidichannel"
+authors = ["h04x <distract.doctrine@gmail.com>"]
+keywords = ["channel", "queue", "bi-directional"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version="1.20.0", features=["macros", "sync", "rt-multi-thread"]}
+
